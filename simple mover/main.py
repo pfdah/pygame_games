@@ -2,7 +2,7 @@ import pygame
 from char import character
 
 bg_color = (0,0,0)
-screen = pygame.display.set_mode((500,600))
+screen = pygame.display.set_mode((300,300))
 screen.fill(bg_color)
 pygame.display.set_caption('Hawa Game ko demo')
 clock = pygame.time.Clock()
